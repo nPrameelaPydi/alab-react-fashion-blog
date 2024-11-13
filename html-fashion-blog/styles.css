@@ -3,15 +3,6 @@ html {
     border-left: 5px solid lightgray;
 }
 
-@font-face {
-    font-family: 'Chantilly Light';
-    src: url('/path-to-fonts/Chantilly-Light.ttf') format('truetype');
-}
-
-p {
-    font-family: 'Chantilly Light', sans-serif;
-}
-
 h1 {
     font-family: 'Nunito Sans', sans-serif;
 }

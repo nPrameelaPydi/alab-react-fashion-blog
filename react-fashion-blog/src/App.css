@@ -1,0 +1,125 @@
+/*Border on the left side of the <html> element*/
+html {
+  border-left: 5px solid lightgray;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+
+  /* 100% of the viewport height */
+  min-height: 100vh;
+  font-family: monospace, sans-serif;
+  /* Remove default margins for consistency*/
+  margin: 0;
+  max-width: 1000px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+
+}
+
+.top-nav,
+ul {
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.top-nav a {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.top-nav a:hover {
+  color: tomato;
+}
+
+time {
+  color: grey;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+article h2 {
+  margin-top: 0px;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+  /*1rem (top,bottom) and 2rem (left,right)*/
+}
+
+h1 {
+  font-size: 5rem;
+  color: tomato;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+  margin-top: 1.5rem;
+}
+
+/* Images with full width */
+img {
+  width: 100%;
+  height: auto;
+}
+
+article h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+article p::first-letter {
+  font-size: 4rem;
+  font-weight: 300;
+  color: lightgray;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: 0px;
+}
+
+article {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.continues {
+  float: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.continues:hover {
+  color: darkred;
+}
+
+
+.footer-nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+.footer-nav,
+ul {
+  justify-content: space-between;
+}
+
+.footer-nav a:hover {
+  color: lightgray;
+}
+
+footer p {
+  color: lightgray;
+}
